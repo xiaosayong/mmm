@@ -1,0 +1,94 @@
+02-Jan-2023 17:41:08.551 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Server version:        Apache Tomcat (TomEE)/8.5.41 (7.1.1)
+02-Jan-2023 17:41:08.552 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Server built:          May 4 2019 09:17:16 UTC
+02-Jan-2023 17:41:08.552 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Server number:         8.5.41.0
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Name:               Mac OS X
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke OS Version:            10.16
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Architecture:          x86_64
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Java Home:             /Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home/jre
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Version:           1.8.0_282-b08
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke JVM Vendor:            AdoptOpenJDK
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_BASE:         /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:08.553 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke CATALINA_HOME:         /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:08.555 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -XX:+HeapDumpOnOutOfMemoryError
+02-Jan-2023 17:41:08.555 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dorg.apache.catalina.STRICT_SERVLET_COMPLIANCE=false
+02-Jan-2023 17:41:08.555 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager
+02-Jan-2023 17:41:08.555 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dtomee.remote.support=true
+02-Jan-2023 17:41:08.556 信息 [main] sun.reflect.NativeMethodAccessorImpl.invoke Command line argument: -Dopenejb.system.apps=false
+02-Jan-2023 17:41:08.556 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dtomee.jsp-development=true
+02-Jan-2023 17:41:08.556 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.config.file=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/conf/logging.properties
+02-Jan-2023 17:41:08.556 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -javaagent:/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/lib/openejb-javaagent.jar
+02-Jan-2023 17:41:08.562 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+02-Jan-2023 17:41:08.562 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Djava.io.tmpdir=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/temp
+02-Jan-2023 17:41:08.562 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.base=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:08.562 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.home=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:08.563 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dcatalina.ext.dirs=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/lib
+02-Jan-2023 17:41:08.563 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -Dorg.apache.tomcat.util.http.ServerCookie.ALLOW_HTTP_SEPARATORS_IN_V0=true
+02-Jan-2023 17:41:08.564 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Command line argument: -ea
+02-Jan-2023 17:41:08.564 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/xiaoyong/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+02-Jan-2023 17:41:09.097 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["http-nio-8080"]
+02-Jan-2023 17:41:09.164 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+02-Jan-2023 17:41:09.219 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initializing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2023 17:41:09.220 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Using a shared selector for servlet write/read
+02-Jan-2023 17:41:09.629 信息 [main] org.apache.openejb.util.OptionsLog.info Using 'tomee.remote.support=true'
+02-Jan-2023 17:41:09.643 信息 [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.jdbc.datasource-creator=org.apache.tomee.jdbc.TomEEDataSourceCreator'
+02-Jan-2023 17:41:09.898 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+02-Jan-2023 17:41:09.898 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> OpenEJB http://tomee.apache.org/
+02-Jan-2023 17:41:09.898 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> Startup: Mon Jan 02 17:41:09 JST 2023
+02-Jan-2023 17:41:09.898 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> Copyright 1999-2018 (C) Apache OpenEJB Project, All Rights Reserved.
+02-Jan-2023 17:41:09.899 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> Version: 7.1.1
+02-Jan-2023 17:41:09.899 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> Build date: 20190605
+02-Jan-2023 17:41:09.900 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> Build time: 10:09
+02-Jan-2023 17:41:09.901 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> ********************************************************************************
+02-Jan-2023 17:41:09.901 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.home = /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:09.901 信息 [main] org.apache.openejb.OpenEJB$Instance.<init> openejb.base = /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee
+02-Jan-2023 17:41:09.904 信息 [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Created new singletonService org.apache.openejb.cdi.ThreadSingletonServiceImpl@15bb6bea
+02-Jan-2023 17:41:09.904 信息 [main] org.apache.openejb.cdi.CdiBuilder.initializeOWB Succeeded in installing singleton service
+02-Jan-2023 17:41:09.986 信息 [main] org.apache.openejb.config.ConfigurationFactory.init TomEE configuration file is '/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/conf/tomee.xml'
+02-Jan-2023 17:41:10.054 信息 [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Tomcat Security Service, type=SecurityService, provider-id=Tomcat Security Service)
+02-Jan-2023 17:41:10.060 信息 [main] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Transaction Manager, type=TransactionManager, provider-id=Default Transaction Manager)
+02-Jan-2023 17:41:10.064 信息 [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.system.apps=false'
+02-Jan-2023 17:41:10.064 信息 [main] org.apache.openejb.util.OptionsLog.info Using 'openejb.deployments.classpath=false'
+02-Jan-2023 17:41:10.069 信息 [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating TransactionManager(id=Default Transaction Manager)
+02-Jan-2023 17:41:10.298 信息 [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating SecurityService(id=Tomcat Security Service)
+02-Jan-2023 17:41:10.437 信息 [main] org.apache.openejb.server.ServiceManager.initServer Creating ServerService(id=cxf-rs)
+02-Jan-2023 17:41:10.942 信息 [main] org.apache.openejb.server.SimpleServiceManager.start   ** Bound Services **
+02-Jan-2023 17:41:10.943 信息 [main] org.apache.openejb.server.SimpleServiceManager.printRow   NAME                 IP              PORT  
+02-Jan-2023 17:41:10.943 信息 [main] org.apache.openejb.server.SimpleServiceManager.start -------
+02-Jan-2023 17:41:10.943 信息 [main] org.apache.openejb.server.SimpleServiceManager.start Ready!
+02-Jan-2023 17:41:10.944 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Initialization processed in 3988 ms
+02-Jan-2023 17:41:10.992 信息 [main] org.apache.tomee.catalina.OpenEJBNamingContextListener.bindResource Importing a Tomcat Resource with id 'UserDatabase' of type 'org.apache.catalina.UserDatabase'.
+02-Jan-2023 17:41:10.992 信息 [main] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Resource(id=UserDatabase)
+02-Jan-2023 17:41:11.022 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting service [Catalina]
+02-Jan-2023 17:41:11.028 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting Servlet Engine: Apache Tomcat (TomEE)/8.5.41 (7.1.1)
+02-Jan-2023 17:41:11.065 信息 [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deploying web application archive [/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT.war]
+02-Jan-2023 17:41:11.071 信息 [localhost-startStop-1] org.apache.tomee.catalina.TomcatWebAppBuilder.init ------------------------- localhost -> /MyDemo-1.0-SNAPSHOT
+02-Jan-2023 17:41:11.072 信息 [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracting jar: /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT.war
+02-Jan-2023 17:41:11.354 信息 [localhost-startStop-1] org.apache.openejb.util.JarExtractor.extract Extracted path: /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT
+02-Jan-2023 17:41:11.354 信息 [localhost-startStop-1] org.apache.openejb.util.OptionsLog.info Using 'openejb.session.manager=org.apache.tomee.catalina.session.QuickSessionManager'
+02-Jan-2023 17:41:13.581 信息 [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureApplication Configuring enterprise application: /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT
+02-Jan-2023 17:41:13.836 信息 [localhost-startStop-1] org.apache.openejb.config.ConfigurationFactory.configureService Configuring Service(id=Default Managed Container, type=Container, provider-id=Default Managed Container)
+02-Jan-2023 17:41:13.838 信息 [localhost-startStop-1] org.apache.openejb.config.AutoConfig.createContainer Auto-creating a container for bean MyDemo-1.0-SNAPSHOT.Comp1313106609: Container(type=MANAGED, id=Default Managed Container)
+02-Jan-2023 17:41:13.838 信息 [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createRecipe Creating Container(id=Default Managed Container)
+02-Jan-2023 17:41:13.853 信息 [localhost-startStop-1] org.apache.openejb.core.managed.SimplePassivater.init Using directory /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/temp for stateful session passivation
+02-Jan-2023 17:41:13.920 信息 [localhost-startStop-1] org.apache.openejb.config.AppInfoBuilder.build Enterprise application "/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT" loaded.
+02-Jan-2023 17:41:13.963 信息 [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Assembling app: /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT
+02-Jan-2023 17:41:14.443 信息 [localhost-startStop-1] org.apache.openejb.assembler.classic.Assembler.createApplication Deployed Application(path=/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT)
+02-Jan-2023 17:41:14.600 警告 [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+02-Jan-2023 17:41:15.048 信息 [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+02-Jan-2023 17:41:15.362 信息 [localhost-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Deployment of web application archive [/Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT.war] has finished in [4,298] ms
+02-Jan-2023 17:41:15.371 信息 [Catalina-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Unable to set the web application class loader property [clearReferencesRmiTargets] to [true] as the property does not exist.
+02-Jan-2023 17:41:15.371 信息 [Catalina-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Unable to set the web application class loader property [clearReferencesObjectStreamClassCaches] to [true] as the property does not exist.
+02-Jan-2023 17:41:15.371 信息 [Catalina-startStop-1] sun.reflect.DelegatingMethodAccessorImpl.invoke Unable to set the web application class loader property [clearReferencesThreadLocals] to [true] as the property does not exist.
+02-Jan-2023 17:41:15.403 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["http-nio-8080"]
+02-Jan-2023 17:41:15.414 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Starting ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2023 17:41:15.415 信息 [main] sun.reflect.DelegatingMethodAccessorImpl.invoke Server startup in 4470 ms
+02-Jan-2023 17:42:49.169 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["http-nio-8080"]
+02-Jan-2023 17:42:49.175 信息 [1] sun.reflect.DelegatingMethodAccessorImpl.invoke A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+02-Jan-2023 17:42:49.184 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Pausing ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2023 17:42:49.191 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping service [Catalina]
+02-Jan-2023 17:42:49.205 信息 [localhost-startStop-2] org.apache.openejb.assembler.classic.Assembler.destroyApplication Undeploying app: /Users/xiaoyong/IdeaProjects/MyDemo/target/apache-tomee/webapps/MyDemo-1.0-SNAPSHOT
+02-Jan-2023 17:42:49.374 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["http-nio-8080"]
+02-Jan-2023 17:42:49.378 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Stopping ProtocolHandler ["ajp-nio-8009"]
+02-Jan-2023 17:42:49.381 信息 [Thread-17] org.apache.openejb.server.SimpleServiceManager.stop Stopping server services
+02-Jan-2023 17:42:49.399 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["http-nio-8080"]
+02-Jan-2023 17:42:49.400 信息 [Thread-17] sun.reflect.DelegatingMethodAccessorImpl.invoke Destroying ProtocolHandler ["ajp-nio-8009"]

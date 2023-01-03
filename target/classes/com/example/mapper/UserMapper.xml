@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.UserMapper">
+    <select id="selectDB" resultType="JavaBeanDemo">
+        select * from FAMILY
+    </select>
+    <select id="selectByID" resultType="JavaBeanDemo">
+        select * from family where trim(name) = #{name}
+    </select>
+    <select id="selectByCondition" resultType="JavaBeanDemo">
+        select * from family
+        <where>
+        name like #{name}
+        <if test="sex!=null and sex!=''">
+            and sex like #{sex}
+        </if>
+        </where>
+    </select>
+</mapper>
